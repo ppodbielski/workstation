@@ -1,0 +1,8 @@
+:hi Directory guifg=#FF0000 ctermfg=blue
+let mapleader = ","
+set number relativenumber
+
+inoremap <A-h> <C-o>h
+inoremap <A-j> <C-o>j
+inoremap <A-k> <C-o>k
+inoremap <A-l> <C-o>l
