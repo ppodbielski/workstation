@@ -84,7 +84,8 @@ Plug 'tomasr/molokai'
 " go
 "" Go Lang Bundle
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
-
+Plug 'maralla/completor.vim'
+Plug 'stamblerre/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 
 " html
 "" HTML Bundle
@@ -108,7 +109,7 @@ Plug 'arnaud-lb/vim-php-namespace'
 "" Python Bundle
 Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
-
+Plug 'davidhalter/jedi-vim'
 
 " ruby
 Plug 'tpope/vim-rails'
